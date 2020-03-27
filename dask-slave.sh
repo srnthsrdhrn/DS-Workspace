@@ -1,1 +1,2 @@
-dask-worker tcp://$1:$2
+bash get-creds.sh &
+dask-worker $@

@@ -1,0 +1,12 @@
+s3fs==0.4.0
+pyarrow==0.13.0
+awscli
+jupyter
+jupyterlab
+geolib
+haversine
+plotly
+nodejs
+dask==2.9.2
+distributed==2.9.3
+bokeh==1.4.0

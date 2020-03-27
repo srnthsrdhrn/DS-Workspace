@@ -1,9 +1,8 @@
 FROM ufoym/deepo:latest
-RUN pip install --upgrade dask distributed bokeh
-RUN pip install jupyter jupyterlab s3fs pyarrow awscli
 RUN mkdir /usr/src/app
 COPY . /usr/src/app
 WORKDIR /usr/src/app
+RUN pip install -r requirements.txt
 RUN bash jupyter-setup.sh
 EXPOSE 8086
 EXPOSE 8787
