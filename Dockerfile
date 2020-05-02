@@ -7,4 +7,4 @@ RUN bash jupyter-setup.sh
 EXPOSE 8086
 EXPOSE 8787
 EXPOSE 8080
-CMD tail -f /dev/null
+CMD python main.py

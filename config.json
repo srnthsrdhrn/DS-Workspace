@@ -1,0 +1,9 @@
+{
+  "project_name": "DMP",
+  "owner": "Srinath",
+  "s3_workspace_url": "s3://zapr-dmp/workspace",
+  "git_repo_url": "",
+  "use_jupyter_lab": true,
+  "use_dvc": true,
+  "use_dask": true
+}
